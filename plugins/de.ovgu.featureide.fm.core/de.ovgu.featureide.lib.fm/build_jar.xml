@@ -1,0 +1,25 @@
+<project name="lib.fm" default="compile" basedir=".">
+
+	<property name="src" value="src" />
+	<property name="build" value="build" />
+	<property name="lib" value="lib" />
+	<property name="jar" value="de.ovgu.featureide.lib.fm" />
+
+	<target name="compile" description="compile the source">
+
+		<path id="classpath">
+			<fileset dir="${lib}" includes="**/*.jar" />
+		</path>
+
+		<mkdir dir="${build}" />
+		<javac srcdir="${src}" destdir="${build}" includeantruntime="false" source="1.7" classpathref="classpath">
+		</javac>
+
+		<jar destfile="${jar}.jar" basedir="${build}" compress="true">
+		</jar>
+
+		<delete dir="${build}" />
+
+	</target>
+
+</project>

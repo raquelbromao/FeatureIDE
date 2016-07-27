@@ -74,11 +74,11 @@ Export-Package: de.ovgu.featureide.fm.core;uses:="org.prop4j,org.eclipse.core.re
  org.sat4j.tools.encoding,
  org.sat4j.tools.xplain
 Bundle-ClassPath: .,
- lib/guidsl.jar,
- lib/org.sat4j.core.jar,
- lib/annotations.jar,
- lib/org.sat4j.pb.jar,
- lib/antlr-3.4.jar
+ de.ovgu.featureide.lib.fm/lib/annotations.jar,
+ de.ovgu.featureide.lib.fm/lib/antlr-3.4.jar,
+ de.ovgu.featureide.lib.fm/lib/guidsl.jar,
+ de.ovgu.featureide.lib.fm/lib/org.sat4j.core.jar,
+ de.ovgu.featureide.lib.fm/lib/org.sat4j.pb.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Activator: de.ovgu.featureide.fm.core.FMCorePlugin
 Bundle-Vendor: University of Magdeburg
