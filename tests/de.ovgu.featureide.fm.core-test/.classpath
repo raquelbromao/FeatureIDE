@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/splar.jar"/>
 	<classpathentry kind="lib" path="lib/javabdd.jar"/>
+	<classpathentry kind="lib" path="/de.ovgu.featureide.fm.core/de.ovgu.featureide.lib.fm/lib/annotations.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
