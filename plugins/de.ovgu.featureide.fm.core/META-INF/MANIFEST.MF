@@ -109,7 +109,8 @@ Bundle-ClassPath: .,
  de.ovgu.featureide.lib.fm/lib/antlr-3.4.jar,
  de.ovgu.featureide.lib.fm/lib/guidsl.jar,
  de.ovgu.featureide.lib.fm/lib/org.sat4j.core.jar,
- de.ovgu.featureide.lib.fm/lib/org.sat4j.pb.jar
+ de.ovgu.featureide.lib.fm/lib/org.sat4j.pb.jar,
+ de.ovgu.featureide.lib.fm/lib/jakarta.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Activator: de.ovgu.featureide.fm.core.FMCorePlugin
 Bundle-Vendor: University of Magdeburg
